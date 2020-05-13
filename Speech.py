@@ -5,12 +5,12 @@
 
 
 #Packages taht are used in the development of the project are mentioned as comments and how to install them.
-import pyttsx3   #pip install pyttsx3
-import speech_recognition as sr   #pip install speechRecognition
+import pyttsx3                                          #pip install pyttsx3
+import speech_recognition as sr                         #pip install speechRecognition
 import datetime
-import wikipedia   #pip install wikipedia
+import wikipedia                                        #pip install wikipedia
 import webbrowser
-#import os
+import os
 from playsound import playsound
 
 
@@ -36,8 +36,7 @@ def wishMe():
 
     speak("This is our Artificial intelligent project, please tell me hom may i help you?")
 
-def takeCommand():
-    #It takes microphone input from the user and returns string output
+def takeCommand():                  #It takes microphone input from the user and returns string output
 
     r = sr.Recognizer()
     with sr.Microphone() as source:
@@ -66,7 +65,7 @@ if __name__ == "__main__":
     # if 1:
         query = takeCommand().lower()
 
-        # The Logic for executing tasks based on query
+     # The Logic for executing tasks based on query
         if 'wikipedia' in query:
             speak('Searching Wikipedia...')
             query = query.replace("wikipedia", "")
