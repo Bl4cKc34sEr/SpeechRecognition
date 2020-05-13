@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
 
         elif 'play music' in query:
-            playsound("C:\\Users\\Shivanshu\\Desktop\\.mp3")
+            playsound("C:\\Users\\Shivanshu\\Desktop\\Steg.mp3")
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
