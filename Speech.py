@@ -1,10 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[ ]:
 
 
-#Packages taht are used in the development of the project are mentioned as comments and how to install them.
+#Packages taht are used in the development of the project and are necessary have been mentioned as comments and how to install them.
 import pyttsx3                                          #pip install pyttsx3
 import speech_recognition as sr                         #pip install speechRecognition
 import datetime
