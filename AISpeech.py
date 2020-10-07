@@ -6,9 +6,9 @@ import pyttsx3                                          #pip install pyttsx3
 import speech_recognition as sr                         #pip install speechRecognition
 import datetime
 import wikipedia                                        #pip install wikipedia
-import webbrowser
+import webbrowser                                       #pip install webbrowser
 import os
-from playsound import playsound
+from playsound import playsound                         #pip install playsound
 
 
 
@@ -31,7 +31,7 @@ def wishMe():
     else:
         speak("Good Evening sir!")
 
-    speak("This is our Artificial intelligent project, please tell me hom may i help you?")
+    speak("This is our Artificial intelligent project, Is there any thing with which i can help you?")
 
 def takeCommand():                  #It takes microphone input from the user and returns string output
 
